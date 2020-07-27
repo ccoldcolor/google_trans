@@ -39,7 +39,7 @@
             // Input
             // 
             this.Input.Location = new System.Drawing.Point(10, 10);
-            this.Input.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Input.Margin = new System.Windows.Forms.Padding(2);
             this.Input.Name = "Input";
             this.Input.Size = new System.Drawing.Size(419, 21);
             this.Input.TabIndex = 0;
@@ -47,7 +47,7 @@
             // Submit
             // 
             this.Submit.Location = new System.Drawing.Point(10, 35);
-            this.Submit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Submit.Margin = new System.Windows.Forms.Padding(2);
             this.Submit.Name = "Submit";
             this.Submit.Size = new System.Drawing.Size(418, 26);
             this.Submit.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(10, 66);
-            this.listView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listView.Margin = new System.Windows.Forms.Padding(2);
             this.listView.Name = "listView";
             this.listView.Size = new System.Drawing.Size(419, 286);
             this.listView.TabIndex = 2;
@@ -84,7 +84,8 @@
             this.Controls.Add(this.Input);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "谷歌翻译_CC";
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
